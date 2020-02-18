@@ -7,6 +7,9 @@ import { FfIntroComponent } from './ff-intro/ff-intro.component';
 import { FfHeaderComponent } from './ff-header/ff-header.component';
 import { FfMyProjectsComponent } from './ff-my-projects/ff-my-projects.component';
 import { FfContactComponent } from './ff-contact/ff-contact.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+import {MatButtonModule} from '@angular/material/button';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,9 @@ import { FfContactComponent } from './ff-contact/ff-contact.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
