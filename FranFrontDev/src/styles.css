@@ -5,6 +5,7 @@ body {
     font-family: Roboto, "Helvetica Neue", sans-serif;
     height: 100%;
     margin: 100px 100px 100px 100px;
+    background-color: rebeccapurple;
 }
 
 h1 {
