@@ -9,7 +9,8 @@ import { FfMyProjectsComponent } from './ff-my-projects/ff-my-projects.component
 import { FfContactComponent } from './ff-contact/ff-contact.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-import {MatButtonModule} from '@angular/material/button';
+import { MatButtonModule } from '@angular/material/button';
+
 
 @NgModule({
   declarations: [
@@ -23,7 +24,9 @@ import {MatButtonModule} from '@angular/material/button';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+
     MatButtonModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

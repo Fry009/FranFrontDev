@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FfIntroComponent implements OnInit {
 
+  imgUrl = '../assets/img/introImg.png';
+
   constructor() { }
 
   ngOnInit(): void {

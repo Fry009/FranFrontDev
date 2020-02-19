@@ -1,0 +1,33 @@
+.ff-intro .content-wrapper {
+    width: 80%;
+    margin: 4% 10% 5% 10%;
+}
+
+.ff-intro .content-wrapper img {
+    width: 100%;
+}
+
+.ff-intro .content-wrapper button {
+    margin: 20px 50px 20px 20px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+}
+
+.text-wrapper {
+    width: 100%;
+    position: relative;
+    margin-top: -40%;
+}
+
+.text-wrapper h1 {
+    font-family: 'Lobster';
+    text-align: center;
+    font-size: 52px;
+}
+
+.text-wrapper h2 {
+    font-family: 'Lobster';
+    text-align: center;
+    font-size: 45px;
+}
