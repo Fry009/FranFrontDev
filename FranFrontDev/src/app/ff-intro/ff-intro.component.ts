@@ -9,7 +9,7 @@ declare var particlesJS: any;
 })
 export class FfIntroComponent implements OnInit {
 
-  imgUrl = '../assets/img/introImg.png';
+  imgUrl = '../assets/img/introImg.jpg';
 
   constructor() { }
 

@@ -1,21 +1,17 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
 @import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
 html,
 body {
     margin: 0;
     font-family: Roboto, "Helvetica Neue", sans-serif;
     height: 100%;
-    margin: 100px 100px 100px 100px;
-    background-color: rebeccapurple;
+    margin: 12px 12px 12px 12px;
+    background-color: rgb(232, 232, 232);
 }
 
 h1 {
     text-align: center;
     font-size: 312%;
-}
-
-img {
-    display: block;
-    width: 100%;
 }
 
 .contenedor {
@@ -31,4 +27,8 @@ img {
 .version-info {
     font-size: 8pt;
     float: right;
+}
+
+:focus {
+    outline: 0 !important;
 }

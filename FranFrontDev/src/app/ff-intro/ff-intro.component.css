@@ -1,6 +1,10 @@
+.ff-intro {
+    overflow: hidden;
+}
+
 .ff-intro .content-wrapper {
-    width: 80%;
-    margin: 4% 10% 5% 10%;
+    position: relative;
+    width: 100%;
 }
 
 .ff-intro .content-wrapper img {
@@ -17,7 +21,7 @@
 .text-wrapper {
     width: 100%;
     position: relative;
-    margin-top: -40%;
+    margin-top: -57%;
 }
 
 .text-wrapper h1 {
@@ -30,4 +34,9 @@
     font-family: 'Lobster';
     text-align: center;
     font-size: 45px;
+}
+
+.ff-intro .particles {
+    position: absolute;
+    width: 100%;
 }
