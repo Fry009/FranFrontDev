@@ -2,8 +2,15 @@
     <div class="container">
         <h2>API REST Demo! Pokemon SEARCH ENGINE</h2>
         <h3>Mercadillos en la via municipal de Madrid</h3>
-        <div *ngFor="let pokemon of pokemonList.results">
-            <li>{{pokemon.name}}</li>
-        </div>
+        <form class="example-form">
+            <mat-form-field class="example-full-width">
+                <input type="text" placeholder="Pick one" aria-label="Number" matInput [formControl]="myControl" [matAutocomplete]="auto">
+                <mat-autocomplete #auto="matAutocomplete">
+                    <mat-option *ngFor="let pokemon of filteredOptions | async" [value]="pokemon.name">
+                        {{pokemon.name}}
+                    </mat-option>
+                </mat-autocomplete>
+            </mat-form-field>
+        </form>
     </div>
 </div>
