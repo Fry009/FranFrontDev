@@ -1,0 +1,7 @@
+.ff-apt-charts {
+    width: 100%;
+}
+
+.ff-apt-charts canvas {
+    height: 400px;
+}
